@@ -1,15 +1,13 @@
-import Header from './components/header';
-// import CryptoCurrencyList from './pages/cryptoCurrencyList';
+import Header from './components/loading';
+import CryptoCurrencyList from './pages/cryptoCurrencyList';
 
 function App() {
     return (
         <div>
             <Header />
-            {/* <CryptoCurrencyList /> */}
+            <CryptoCurrencyList />
 
         </div>
-        
-       
     )
 }
 
